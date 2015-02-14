@@ -1,5 +1,5 @@
 # dotfiles
-My list of dotfiles and configurations
+My list of dotfiles and configurations for my mac/linux
 
 # To Use
 1. run ./make.sh
