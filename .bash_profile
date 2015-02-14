@@ -35,4 +35,7 @@ export GREP_OPTIONS='--line-number --color=auto --binary-files=without-match'
 export GREP_COLOR='1;32'
 #export PATH=$PATH:/usr/local/bin:.
 
+# applies only for my mac:
+export PATH=/Users/wonwook-mac/android-sdk-macosx/platform-tools:/Users/wonwook-mac/android-sdk-macosx/tools:$PATH
+
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
