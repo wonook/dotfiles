@@ -11,7 +11,7 @@ Run
     $ git submodule foreach git pull origin master
 to update vim plugins
 
-# Plug-ins included
+# VIM Plug-ins included
 1. auto-pairs
 2. grunt.vim
 3. html5.vim
