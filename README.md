@@ -7,6 +7,7 @@ My list of dotfiles and configurations
 (if some permission problem occur, try chomod +x make.sh)
 
 Run
+
     $ git submodule foreach git pull origin master
 to update vim plugins
 
