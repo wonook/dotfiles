@@ -37,6 +37,8 @@ case $response in
     echo "bundler\nrails\ncapistrano\npassenger" > ~/.rbenv/default-gems
     git clone git://github.com/jf/rbenv-gemset.git ~/.rbenv/plugins/rbenv-gemset
     echo "installed rbenv-gemset"
+    git clone https://github.com/rkh/rbenv-update.git ~/.rbenv/plugins/rbenv-update
+    echo "installed rbenv-update"
     ;;
   * ) 
     echo "rbenv is not installed\n"
