@@ -43,3 +43,16 @@ esac
 if [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
 fi
+
+if [[ -e "${HOME}/.rbenv/bin/rbenv" ]]; then
+  RBENV_ROOT=$HOME/.rbenv
+elif [[ -e "/usr/local/rbenv/bin/rbenv" ]]; then
+  RBENV_ROOT=/usr/local/rbenv
+fi
+
+export RBENV_ROOT
+export PATH="${RBENV_ROOT}/bin:${PATH}"
+
+if [[ -n "${RBENV_ROOT}" ]]; then
+  eval "$($RBENV_ROOT/bin/rbenv init -)"
+fi

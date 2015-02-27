@@ -23,15 +23,10 @@ case $response in
     rm -rf ~/.rbenv
     git clone git://github.com/sstephenson/rbenv.git ~/.rbenv
     echo "installed into .rbenv"
-    echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 
     git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
-    echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bashrc
-
     git clone git://github.com/rkh/rbenv-whatis.git ~/.rbenv/plugins/rbenv-whatis
     git clone git://github.com/rkh/rbenv-use.git ~/.rbenv/plugins/rbenv-use
-    echo 'export PATH="$HOME/.rbenv/plugins/rbenv-whatis/bin:$HOME/.rbenv/plugins/rbenv-use/bin:$PATH"' >> ~/.bashrc
-
     ;;
   * ) 
     echo "rbenv is not installed\n"
