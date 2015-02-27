@@ -38,12 +38,13 @@ case $response in
         echo "brew installed rbenv-default-gems"
         brew install rbenv-gemset
         echo "brew installed rbenv-gemset"
+        brew install rbenv-update
+        echo "brew isntalled rbenv-update"
         ;;
       * )
         rm -rf ~/.rbenv
         git clone git://github.com/sstephenson/rbenv.git ~/.rbenv
         echo "installed into .rbenv"
-
         git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
         echo "installed ruby-build"
         git clone git://github.com/rkh/rbenv-whatis.git ~/.rbenv/plugins/rbenv-whatis
@@ -57,8 +58,11 @@ case $response in
         echo "bundler\nrails\ncapistrano\npassenger" > "$RBENV_ROOT/default-gems"
         git clone git://github.com/jf/rbenv-gemset.git ~/.rbenv/plugins/rbenv-gemset
         echo "installed rbenv-gemset"
+        git clone https://github.com/rkh/rbenv-update.git ~/.rbenv/plugins/rbenv-update
+        echo "installed rbenv-update"
         ;;
     esac
+    ;;
   * ) 
     echo "rbenv is not installed\n"
     ;;
