@@ -24,22 +24,16 @@ case $response in
     case $resp in
       [Yy]* )
         brew install rbenv
-        echo "brew installed rbenv"
         brew install ruby-build
-        echo "brew installed ruby-build"
         brew install rbenv-whatis
-        echo "brew installed rbenv-whatis"
         brew install rbenv-use
-        echo "brew installed rbenv-use"
         brew install rbenv-gem-rehash
-        echo "brew installed rbenv-gem-rehash"
         brew install rbenv-default-gems
         echo "bundler\nrails\ncapistrano\npassenger" > "$RBENV_ROOT/default-gems"
-        echo "brew installed rbenv-default-gems"
         brew install rbenv-gemset
-        echo "brew installed rbenv-gemset"
         brew install rbenv-update
-        echo "brew isntalled rbenv-update"
+        echo "!!!!!IMPORTANT:::"
+        echo "run eval "$(rbenv init -)" afterwards"
         ;;
       * )
         rm -rf ~/.rbenv
