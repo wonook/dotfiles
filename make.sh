@@ -30,6 +30,7 @@ case $response in
 
     git clone git://github.com/rkh/rbenv-whatis.git ~/.rbenv/plugins/rbenv-whatis
     git clone git://github.com/rkh/rbenv-use.git ~/.rbenv/plugins/rbenv-use
+    echo 'export PATH="$HOME/.rbenv/plugins/rbenv-whatis/bin:$HOME/.rbenv/plugins/rbenv-use/bin:$PATH"' >> ~/.bashrc
 
     ;;
   * ) 
@@ -53,7 +54,9 @@ esac
 read -r -p "Replace current vim settings and plugins? [Y/n]" response
 case $response in
   [Yy]* )
+    echo "git submodule init"
     git submodule init
+    echo "git submodule update"
     git submodule update
     rm -rf ~/.vimrc
     rm -rf ~/.vim/
