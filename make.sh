@@ -25,8 +25,18 @@ case $response in
     echo "installed into .rbenv"
 
     git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+    echo "installed ruby-build"
     git clone git://github.com/rkh/rbenv-whatis.git ~/.rbenv/plugins/rbenv-whatis
+    echo "installed rbenv-whatis"
     git clone git://github.com/rkh/rbenv-use.git ~/.rbenv/plugins/rbenv-use
+    echo "installed rbenv-use"
+    git clone https://github.com/sstephenson/rbenv-gem-rehash.git ~/.rbenv/plugins/rbenv-gem-rehash
+    echo "installed rbenv-gem-rehash"
+    git clone https://github.com/sstephenson/rbenv-default-gems.git ~/.rbenv/plugins/rbenv-default-gems
+    echo "installed rbenv-default-gems"
+    echo "bundler\nrails\ncapistrano\npassenger" > ~/.rbenv/default-gems
+    git clone git://github.com/jf/rbenv-gemset.git ~/.rbenv/plugins/rbenv-gemset
+    echo "installed rbenv-gemset"
     ;;
   * ) 
     echo "rbenv is not installed\n"
