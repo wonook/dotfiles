@@ -37,22 +37,3 @@ xterm*|rxvt*)
     ;;
 esac
 
-# enable programmable completion features (you don't need to enable
-# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
-# sources /etc/bash.bashrc).
-if [ -f /etc/bash_completion ]; then
-    . /etc/bash_completion
-fi
-
-if [[ -e "${HOME}/.rbenv/bin/rbenv" ]]; then
-  RBENV_ROOT=$HOME/.rbenv
-elif [[ -e "/usr/local/rbenv/bin/rbenv" ]]; then
-  RBENV_ROOT=/usr/local/rbenv
-fi
-
-export RBENV_ROOT
-export PATH="${RBENV_ROOT}/bin:${PATH}"
-
-if [[ -n "${RBENV_ROOT}" ]]; then
-  eval "$($RBENV_ROOT/bin/rbenv init -)"
-fi
