@@ -38,7 +38,7 @@ case $response in
     echo "installed rbenv-gemset"
     git clone https://github.com/rkh/rbenv-update.git ~/.rbenv/plugins/rbenv-update
     echo "installed rbenv-update"
-    cat .bashrc.rbenv >> .bashrc
+    cat .bashrc.rbenv >> ~/.bashrc
     echo "copied rbenv bash settings"
     ;;
   * ) 
