@@ -30,6 +30,7 @@ alias mv='mv -i'
 alias courses='cd ~/ownCloud/School/15th\ Univ\ \(2015-2016\)/수업/1학기/'
 alias courses-sp='cd ~/ownCloud/School/15th\ Univ\ \(2015-2016\)/수업/1학기/시스템\ 프로그래밍/'
 alias courses-pl='cd ~/ownCloud/Coding/Racket\:OcamlProgramming/ProgrammingLanguage'
+alias courses-swpp='cd ~/ownCloud/Coding/RubyProgramming/SWPP'
 alias coding='cd ~/ownCloud/Coding'
 
 export CLICOLOR=1
