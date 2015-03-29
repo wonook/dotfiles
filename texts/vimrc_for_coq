@@ -1,5 +1,5 @@
 
 " Maps Coquille commands to CoqIDE default key bindings
-au Bufenter *.v map <c-down> :CoqNext<CR>
-au Bufenter *.v map <c-up> :CoqUndo<CR>
-au Bufenter *.v map <F5> :CoqToCursor<CR>
+au Bufenter *.v map <c-j> :CoqNext<CR>
+au Bufenter *.v map <c-k> :CoqUndo<CR>
+au Bufenter *.v map <c-l> :CoqToCursor<CR>
