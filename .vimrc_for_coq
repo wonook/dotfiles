@@ -1,3 +1,4 @@
+
 " Maps Coquille commands to CoqIDE default key bindings
 au Bufenter *.v map <c-down> :CoqNext<CR>
 au Bufenter *.v map <c-up> :CoqUndo<CR>
