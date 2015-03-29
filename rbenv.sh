@@ -18,12 +18,12 @@ case $response in
     echo "installed rbenv-gem-rehash"
     git clone https://github.com/sstephenson/rbenv-default-gems.git ~/.rbenv/plugins/rbenv-default-gems
     echo "installed rbenv-default-gems"
-    echo "bundler\nrails\ncapistrano\npassenger" > "$RBENV_ROOT/default-gems"
+    cat texts/rbenv_default_gems >> "$RBENV_ROOT/default-gems"
     git clone git://github.com/jf/rbenv-gemset.git ~/.rbenv/plugins/rbenv-gemset
     echo "installed rbenv-gemset"
     git clone https://github.com/rkh/rbenv-update.git ~/.rbenv/plugins/rbenv-update
     echo "installed rbenv-update"
-    cat .bashrc.rbenv >> ~/.bashrc
+    cat texts/bashrc.rbenv >> ~/.bashrc
     echo "copied rbenv bash settings into bashrc"
     ;;
   * ) 

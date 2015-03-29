@@ -5,7 +5,7 @@ echo "For the following questions, it would be better to answer yes to all of th
 read -r -p "Install coq for vim? [Y/n]" response
 case $response in
   [Yy]* )
-    cat .vimrc_for_coq >> ~/.vimrc
+    cat texts/vimrc_for_coq >> ~/.vimrc
     cd ~/.vim/bundle
     git clone git@github.com:def-lkb/vimbufsync.git
     git clone https://github.com/jvoorhis/coq.vim.git
