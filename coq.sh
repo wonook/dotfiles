@@ -1,8 +1,6 @@
 #/bin/bash
 
-echo "For the following questions, it would be better to answer yes to all of them to install coq for vim."
-
-read -r -p "Install coq for vim? [Y/n]" response
+read -r -p "Install coq settings for vim? [Y/n]" response
 case $response in
   [Yy]* )
     cat texts/vimrc_for_coq >> ~/.vimrc
