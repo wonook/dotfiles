@@ -9,6 +9,7 @@ case $response in
     echo "copied .bashrc"
     cp .git-completion.bash ~/
     echo "copied .git-completion.bash"
+    ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
     ;;
   * ) 
     echo "bash settings are not copied\n"
