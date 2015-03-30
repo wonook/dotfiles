@@ -1,7 +1,5 @@
 #/bin/bash
 
-echo "For the following questions, it would be better to answer yes to all of them to apply my settings."
-
 read -r -p "Install rbenv? [Y/n]" response
 case $response in
   [Yy]* )
