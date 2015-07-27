@@ -7,5 +7,3 @@ echo "For the following questions, it would be better to answer yes to all of th
 ./vimplugins.sh
 ./git.sh
 
-./coq.sh
-
