@@ -27,8 +27,8 @@ alias la='ls -Alh'
 alias l='ls -CF'
 alias rm='rm -i'
 alias mv='mv -i'
-alias courses='cd ~/ownCloud/School/15th\ Univ\ \(2015-2016\)/수업/1학기/'
-alias coding='cd ~/ownCloud/Coding'
+alias courses='cd ~/Seafile/School/15th\ Univ\ \(2015-2016\)/수업/1학기/'
+alias coding='cd ~/Seafile/Coding'
 
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
@@ -36,6 +36,3 @@ export LS_OPTIONS='--color=auto'
 export GREP_OPTIONS='--line-number --color=auto --binary-files=without-match'
 export GREP_COLOR='1;32'
 #export PATH=$PATH:/usr/local/bin:.
-
-# applies only for my mac-air:
-export PATH=/Users/wonwook-mac/android-sdk-macosx/platform-tools:/Users/wonwook-mac/android-sdk-macosx/tools:$PATH
