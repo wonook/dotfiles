@@ -27,7 +27,7 @@ alias la='ls -Alh'
 alias l='ls -CF'
 alias rm='rm -i'
 alias mv='mv -i'
-alias courses='cd ~/Seafile/School/15th\ Univ\ \(2015-2016\)/수업/1학기/'
+alias courses='cd ~/Seafile/School/15th\ Univ\ \(2015-2016\)/수업/2학기/'
 alias coding='cd ~/Seafile/Coding'
 
 export CLICOLOR=1
