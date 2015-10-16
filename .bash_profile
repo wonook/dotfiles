@@ -29,6 +29,9 @@ alias rm='rm -i'
 alias mv='mv -i'
 alias courses='cd ~/Seafile/School/15th\ Univ\ \(2015-2016\)/수업/2학기/'
 alias coding='cd ~/Seafile/Coding'
+alias compiler='cd ~/Seafile/Coding/ScalaProgramming/ComputerLanguageProcessing/clp2015-group02'
+alias fos='cd ~/Seafile/Coding/ScalaProgramming/FoundationsOfSoftware'
+alias functional='cd ~/Seafile/Coding/ScalaProgramming/FunctionalProgramming'
 
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
