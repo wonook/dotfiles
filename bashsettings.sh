@@ -9,9 +9,21 @@ case $response in
     echo "copied .bashrc"
     cp .git-completion.bash ~/
     echo "copied .git-completion.bash"
-    ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
     ;;
   * ) 
     echo "bash settings are not copied\n"
+    ;;
+esac
+
+read -r -p "Is your current OS Mac OSX? [Y/n]" response
+case $response in
+  [Yy]* )
+    ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+    echo "subl command applied for sublime text"
+    cat texts/bash_profile.osx >> ~/.bash_profile
+    echo "OS X bash_profile settings copied"
+    ;;
+  * )
+    echo "osx settings are not copied\n"
     ;;
 esac

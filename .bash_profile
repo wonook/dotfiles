@@ -29,7 +29,9 @@ alias rm='rm -i'
 alias mv='mv -i'
 alias courses='cd ~/Seafile/School/16th\ Univ\ \(2016-2017\)/수업/1학기/'
 alias coding='cd ~/Seafile/Coding'
-alias os='cd ~/Seafile/Coding/TyzenProgramming/2016-1-OS'
+alias os='cd ~/Seafile/Coding/TizenProgramming'
+alias reef='cd ~/Seafile/Coding/REEF'
+alias server='ssh wsong0512@wsong0512.iptime.org'
 
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
