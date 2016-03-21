@@ -1,4 +1,5 @@
 
 # Below are for OS X ###
 export JAVA_HOME=$(/usr/libexec/java_home)
+export HADOOP_CLASSPATH=${JAVA_HOME}/lib/tools.jar
 # end of OS X settings ###

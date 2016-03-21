@@ -31,6 +31,8 @@ alias courses='cd ~/Seafile/School/16th\ Univ\ \(2016-2017\)/수업/1학기/'
 alias coding='cd ~/Seafile/Coding'
 alias os='cd ~/Seafile/Coding/TizenProgramming'
 alias reef='cd ~/Seafile/Coding/REEF'
+alias profaw='cd ~/Seafile/Coding/RubyProgramming/PRJ/pro-FAW'
+alias minifaw='cd ~/Seafile/Coding/RubyProgramming/PRJ/mini-FAW'
 alias server='ssh wsong0512@wsong0512.iptime.org'
 
 export CLICOLOR=1
