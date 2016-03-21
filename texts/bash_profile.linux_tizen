@@ -1,0 +1,4 @@
+
+#Tizen PATH variable for linux, 2016 OS
+export PATH=$PATH:/home/wsong0512/tizen/usr/bin:/home/wsong0512/tizen/opt/tizen-toolchain-4.9~git-i686_armv7l-tizen-linux-gnueabi-20151113/bin/
+

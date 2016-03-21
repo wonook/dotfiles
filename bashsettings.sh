@@ -28,6 +28,17 @@ case $response in
     ;;
 esac
 
+read -r -p "Copy tizen PATH settings for your ubuntu? [y/N]" response
+case $response in
+  [Yy]* )
+    cat texts/bash_profile.linux_tizen >> ~/.bash_profile
+    echo "Ubuntu tizen PATH settings copied"
+    ;;
+  * )
+    echo "Ubuntu tizen PATH settings are not copied\n"
+    ;;
+esac
+
 read -r -p "copy settings for chruby? [y/N]" response
 case $response in
   [Yy]* )
