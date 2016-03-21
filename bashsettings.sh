@@ -1,6 +1,6 @@
 #/bin/bash
 
-read -r -p "Replace the current bash settings? [Y/n]" response
+read -r -p "Replace the current bash settings? [y/N]" response
 case $response in
   [Yy]* )
     cp .bash_profile ~/
@@ -15,7 +15,7 @@ case $response in
     ;;
 esac
 
-read -r -p "Is your current OS Mac OSX? [Y/n]" response
+read -r -p "Is your current OS Mac OSX? [y/N]" response
 case $response in
   [Yy]* )
     ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
@@ -25,5 +25,16 @@ case $response in
     ;;
   * )
     echo "osx settings are not copied\n"
+    ;;
+esac
+
+read -r -p "copy settings for chruby? [y/N]" response
+case $response in
+  [Yy]* )
+    cat texts/bashrc.chruby >> ~/.bashrc
+    echo "chruby bashrc settings copied"
+    ;;
+  * )
+    echo "chruby bashrc settings are not copied\n"
     ;;
 esac
