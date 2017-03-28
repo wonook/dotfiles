@@ -27,15 +27,15 @@ alias la='ls -Alh'
 alias l='ls -CF'
 alias rm='rm -i'
 alias mv='mv -i'
-alias courses='cd ~/Seafile/School/16th\ Univ\ \(2016-2017\)/수업/1학기/'
+alias courses='cd ~/Seafile/School/17th\ Grad\ \(2017-2018\)/수업/1학기/'
 alias coding='cd ~/Seafile/Coding'
-alias reef='cd ~/Seafile/Coding/REEF'
-alias proreef='cd ~/Seafile/Coding/REEF/pro-reef'
-alias minireef='cd ~/Seafile/Coding/REEF/mini-reef'
-alias profaw='cd ~/Seafile/Coding/RubyProgramming/PRJ/pro-FAW'
-alias minifaw='cd ~/Seafile/Coding/RubyProgramming/PRJ/mini-FAW'
+alias cmslab='cd ~/Seafile/Coding/CMSLab'
+alias pado='cd ~/Seafile/Coding/CMSLab/repositories/Pado/pado'
+alias vortex='cd ~/Seafile/Coding/CMSLab/repositories/vortex'
+alias reef='cd ~/Seafile/Coding/CMSLab/repositories/reef'
 alias server='ssh wsong0512@wsong0512.iptime.org'
-alias vm='ssh 192.168.95.128'
+alias cmscluster='ssh wonook@cmscluster.snu.ac.kr'
+alias r7302='ssh 147.46.215.147 -p 2222'
 
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
@@ -43,3 +43,4 @@ export LS_OPTIONS='--color=auto'
 export GREP_OPTIONS='--line-number --color=auto --binary-files=without-match'
 export GREP_COLOR='1;32'
 #export PATH=$PATH:/usr/local/bin:.
+

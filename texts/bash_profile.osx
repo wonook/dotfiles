@@ -2,4 +2,11 @@
 # Below are for OS X ###
 export JAVA_HOME=$(/usr/libexec/java_home)
 export HADOOP_CLASSPATH=${JAVA_HOME}/lib/tools.jar
+# CUDA
+export CUDA_HOME=/usr/local/cuda
+export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:$CUDA_HOME/lib"
+export PATH="$CUDA_HOME/bin:$PATH"
+# OPAM
+. /Users/wonook/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
 # end of OS X settings ###
+
