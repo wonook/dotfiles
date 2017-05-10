@@ -36,6 +36,7 @@ alias reef='cd ~/Seafile/Coding/CMSLab/repositories/reef'
 alias server='ssh wsong0512@wsong0512.iptime.org'
 alias cmscluster='ssh wonook@cmscluster.snu.ac.kr'
 alias r7302='ssh 147.46.215.147 -p 2222'
+alias build='mvn clean install -T1C'
 
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
