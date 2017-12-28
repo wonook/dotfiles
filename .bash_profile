@@ -36,7 +36,8 @@ alias reef='cd ~/Seafile/Coding/CMSLab/repositories/reef'
 alias server='ssh wsong0512@wsong0512.iptime.org'
 alias cmscluster='ssh wonook@cmscluster.snu.ac.kr'
 alias r730='ssh 147.46.215.147 -p 2222'
-alias build='mvn clean install -T1C'
+alias elsa3='ssh 147.46.219.198 -p 7910'
+alias build='mvn clean install -T 2C'
 alias buildingmachine='ssh jenkins@147.46.247.143'
 
 export CLICOLOR=1
@@ -45,3 +46,4 @@ export LS_OPTIONS='--color=auto'
 export GREP_OPTIONS='--line-number --color=auto --binary-files=without-match'
 export GREP_COLOR='1;32'
 #export PATH=$PATH:/usr/local/bin:.
+

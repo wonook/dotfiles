@@ -8,5 +8,7 @@ export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:$CUDA_HOME/lib"
 export PATH="$CUDA_HOME/bin:$PATH"
 # OPAM
 . /Users/wonook/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
+# JENV
+if which jenv > /dev/null; then eval "$(jenv init -)"; fi
 # end of OS X settings ###
 
