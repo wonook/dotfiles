@@ -29,6 +29,7 @@ alias rm='rm -i'
 alias mv='mv -i'
 alias courses='cd ~/Seafile/School/18thGrad\(2018-2019\)/수업/1학기/'
 alias coding='cd ~/Seafile/Coding'
+alias dotfiles='cd ~/Seafile/Coding/dotfiles'
 alias splab='cd ~/Seafile/Coding/SPLab'
 alias nemo='cd ~/Seafile/Coding/SPLab/repositories/snunemo'
 alias reef='cd ~/Seafile/Coding/SPLab/repositories/reef'
@@ -37,7 +38,7 @@ alias cmscluster='ssh wonook@cmscluster.snu.ac.kr'
 alias r730='ssh 147.46.215.147 -p 2222'
 alias elsa='ssh 147.46.219.198 -p 7910'
 alias build='mvn clean install -T 2C'
-alias buildingmachine='ssh jenkins@147.46.247.143'
+alias buildingmachine='ssh jenkins@147.46.247.143 -p 2222'
 alias killreef="jps | grep "Launcher" | cut -f1 -d ' ' | cut -f2 -d ':'  | xargs kill -9"
 
 export CLICOLOR=1
