@@ -41,6 +41,7 @@ alias build='mvn clean install -T 2C'
 alias buildingmachine='ssh jenkins@147.46.247.143 -p 2222'
 alias killreef="jps | grep "Launcher" | cut -f1 -d ' ' | cut -f2 -d ':'  | xargs kill -9"
 alias tennis="open http://athletics.snu.ac.kr/prg/tnsForm.php?schd_dt=$(date +'%Y/%m/%d')"
+alias courtreservation="open http://athletics.snu.ac.kr/prg/snu_0306_inp.php?rqst_dt=$(date +'%Y/%m/%d')"
 
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
