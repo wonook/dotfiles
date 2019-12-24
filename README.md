@@ -1,5 +1,7 @@
 # dotfiles
 
+*Deprecated*
+
 My list of dotfiles and configurations for my mac/linux
 
 
